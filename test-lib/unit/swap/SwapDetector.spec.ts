@@ -1,4 +1,4 @@
-import { Transaction, ECPair, crypto } from 'bitcoinjs-lib';
+import { Transaction, ECPair, crypto } from 'groestlcoinjs-lib';
 import { getScriptHashFunction } from './Utils';
 import swapScript from '../../../lib/swap/SwapScript';
 import { detectSwap } from '../../../lib/swap/SwapDetector';

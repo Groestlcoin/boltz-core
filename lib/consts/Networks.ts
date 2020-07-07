@@ -1,6 +1,6 @@
-import { networks } from 'bitcoinjs-lib';
+import { networks } from 'groestlcoinjs-lib';
 
-const bitcoinPrefix = '\\x18Bitcoin Signed Message:\n';
+const bitcoinPrefix = '\\x1cGroestlCoin Signed Message:\n';
 const litecoinPrefix = '\\x19Litecoin Signed Message:\n';
 const dogecoinPrefix = '\\x19Dogecoin Signed Message:\n';
 
@@ -21,7 +21,7 @@ const Networks = {
   bitcoinSimnet: {
     messagePrefix: bitcoinPrefix,
     bip32: simnetBip32,
-    bech32: 'sb',
+    bech32: 'sgrs',
     scriptHash: 0x7b,
     pubKeyHash: 0x3f,
     wif: 0x64,

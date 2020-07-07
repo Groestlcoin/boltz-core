@@ -1,5 +1,5 @@
 import { BIP32Interface } from 'bip32';
-import { TxOutput, ECPair } from 'bitcoinjs-lib';
+import { TxOutput, ECPair } from 'groestlcoinjs-lib';
 import { OutputType } from './Enums';
 
 export type Error = {

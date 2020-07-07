@@ -1,4 +1,4 @@
-import { ECPair, crypto } from 'bitcoinjs-lib';
+import { ECPair, crypto } from 'groestlcoinjs-lib';
 import { getHexBuffer } from '../../../lib/Utils';
 import { p2wshOutput } from '../../../lib/swap/Scripts';
 import { ClaimDetails, RefundDetails } from '../../../lib/consts/Types';

@@ -3,7 +3,7 @@
  */
 
 import ops from '@boltz/bitcoin-ops';
-import { script, crypto } from 'bitcoinjs-lib';
+import { script, crypto } from 'groestlcoinjs-lib';
 import { toPushdataScript, encodeCltv } from './SwapUtils';
 
 /**

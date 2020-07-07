@@ -1,4 +1,4 @@
-import { Transaction } from 'bitcoinjs-lib';
+import { Transaction } from 'groestlcoinjs-lib';
 import RpcClient from './RpcClient';
 import { OutputType } from '../../../lib/Boltz';
 
@@ -121,7 +121,7 @@ class ChainClient {
   }
 
   /**
-   * @param blockhash if provided Bitcoin Core will search for the transaction only in that block
+   * @param blockhash if provided Groestlcoin Core will search for the transaction only in that block
    */
   public getRawTransaction = (id: string, verbose = false, blockhash?: string) => {
     return this.client.request<string | RawTransaction>('getrawtransaction', [id, verbose, blockhash]);

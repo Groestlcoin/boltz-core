@@ -1,6 +1,6 @@
 import BN from 'bn.js';
 import { randomBytes } from 'crypto';
-import { crypto } from 'bitcoinjs-lib';
+import { crypto } from 'groestlcoinjs-lib';
 import { getHexString, bufferToBytes, getEthereumTimestamp } from '../lib/Utils';
 import { TestErc20Instance, Erc20SwapInstance } from '../types/truffle-contracts';
 

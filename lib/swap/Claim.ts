@@ -5,7 +5,7 @@
 import * as bip65 from 'bip65';
 import ops from '@boltz/bitcoin-ops';
 import * as varuint from 'varuint-bitcoin';
-import { Transaction, crypto, script } from 'bitcoinjs-lib';
+import { Transaction, crypto, script } from 'groestlcoinjs-lib';
 import { OutputType } from '../consts/Enums';
 import { ClaimDetails } from '../consts/Types';
 import { estimateFee, Input } from '../FeeCalculator';

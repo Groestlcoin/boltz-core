@@ -2,7 +2,7 @@
  * This file is based on the repository github.com/submarineswaps/swaps-service created by Alex Bosworth
  */
 
-import { Transaction, TxOutput } from 'bitcoinjs-lib';
+import { Transaction, TxOutput } from 'groestlcoinjs-lib';
 import { getHexString } from '../Utils';
 import { OutputType } from '../consts/Enums';
 import { p2shOutput, p2shP2wshOutput, p2wshOutput } from './Scripts';

@@ -1,4 +1,4 @@
-import { ECPair, crypto, address, Transaction } from 'bitcoinjs-lib';
+import { ECPair, crypto, address, Transaction } from 'groestlcoinjs-lib';
 import ChainClient from './utils/ChainClient';
 import { ClaimDetails, RefundDetails } from '../../lib/consts/Types';
 import { p2wpkhOutput, p2shOutput, p2wshOutput, p2shP2wshOutput } from '../../lib/swap/Scripts';
