@@ -1,4 +1,4 @@
-import { BIP32Interface } from 'bip32';
+import { BIP32Interface } from 'bip32grs';
 import { TxOutput, ECPair } from 'groestlcoinjs-lib';
 import { OutputType } from './Enums';
 

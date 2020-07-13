@@ -1,5 +1,5 @@
 // tslint:disable:max-line-length
-import { fromBase58 } from 'bip32';
+import { fromBase58 } from 'bip32grs';
 import { getHexBuffer } from '../../../lib/Utils';
 import { OutputType } from '../../../lib/consts/Enums';
 import { RefundDetails } from '../../../lib/consts/Types';
