@@ -1,5 +1,5 @@
 {
-  "name": "boltz-core",
+  "name": "boltz-core-grs",
   "version": "0.2.1",
   "description": "Core library of Boltz",
   "main": "dist/lib/Boltz.js",
